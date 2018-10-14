@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="style.css">
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="boot.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<nav class="navbar navbar-default" style="margin:0">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">ProjMan</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#">Home</a></li>
+      <li><a href="#">Contact</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Register</a></li>
+    </ul>
+  </div>
+</nav>
+  
+<!--div class="container">
+  <h3></h3>
+  <p></p>
+</div-->
+	<!--div class="topnav">
+  <a class="active" href="#home"></a>
+  <a href="#home">Home</a>
+  <a href="#contact">Contact</a>
+  <a href="#about">About</a>
+  <a href="#login">Login</a>
+  <a href="#register">Register</a>
+</div-->
+
+	<div class="bg-image">
+		<div class="bg-text">
+  <h1>Project Management</h1>
+  <p>Welcome to our project</p>
+</div>
+<div class="container" id="cont">
+  <h2 id="login">Login</h2>
+  <!--h5 id="options">Options</h5-->
+  <label>Options</label>
+  <select id="mylist">
+  	<option value ="1">Admin</option>
+  	<option value ="2">Developer</option>
+  	<option value ="3">Team Leader</option>
+  	<option value ="4">Project Manager</option>
+  </select>
+
+
+  
+  <form class="form-horizontal" action="/action_page.php">
+    <div class="form-group">
+      <label class="control-label col-sm-3" for="email">Email:</label>
+      <div class="col-sm-8">
+        <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+      </div>
+    </div>
+    <div class="form-group">
+      <label class="control-label col-sm-3" for="pwd">Password:</label>
+      <div class="col-sm-8">          
+        <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pwd">
+      </div>
+    </div>
+   
+    <div class="form-group" id="submit">        
+      <div class="col-sm-offset-2 col-sm-12">
+        <button type="submit" class="btn btn-success" >Submit</button>
+      </div>
+    </div>
+  </form>
+</div>
+	</div>
+
+
+
+
+</body>
+</html>
